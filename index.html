@@ -1,88 +1,277 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Să gătim cu Valentin!</title>
-    <link rel="stylesheet" href="style.css">
+    <head>
+    <title>Autovit.ro</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <!--Iceput Header-->
     <header>
-        <h1>Bine ați venit pe cel mai mic site de rețete din WWW!</h1>
-    </header>
-    <nav>
-        <a href="#">Acasa</a>
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Retete cu pui</a>
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Retete cu vita</a>
-        <a href="https://www.youtube.com/watch?v/dQw4w9WgXcQ" target="_blank">Retete cu porc</a>
-    </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Autovit.ro</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                 aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
 
-    <div class="clasa_div">
-        <section>
-            <h1>Salut si bine ai venit!</h1>
-            <p>Avem peste 4 retete culinare, traditionale sau moderne, retete culinare romanesti sau din bucataria internationala. Gasesti aici tot ce iti doresti: retete de mancare rapide, pentru dieta (Dukan, Rina etc.), retete de post, prajituri si conserve.</p>
-        </section>
-    </div>
-    <div style="display: flex; justify-content: center; align-items: center;">
-        <div style="width: 24%; margin-left: auto; display: inline-block; min-height: 1000px">
-        <section>    
-        <h3>Ciorba de peste</h3>
-            <img src="https://pofta-buna.com/wp-content/uploads/2023/06/Ciorba-de-peste-lipoveneasca-din-burta-de-crap-somn-reteta-gina-bradea-sarichioi-9-700x525.jpg" alt="O imagine cu ciorba">
-            <ol>
-                <li>3 cepe</li>
-                <li>2 morcovi</li>
-                <li>1 rosie</li>
-                <li>3 cartofi</li>
-                <li>peste, <span class="lamisto">daca aveti</span></li>
-            </ol>
-            <p>Se iau cepele si se curata, la fel facem si cu ardeii care nu apar in reteta, se toaca, se amesteca, se mananca asa</p>
-        </section>
-        </div>        
-    <div style="width: 24%; margin-left: auto; display: inline-block; min-height: 1000px">
-        <section>
-        <h3>Apă fiartă</h3>
-            <img src="https://www.cdc.gov/healthywater/emergency/images/GettyImages-155146092-medium.jpg?_=57019" alt="o imagine">
-            <ul>
-                <li>Apa</li>
-                <li>Cratita</li>
-                <li>Sursa de caldura</li>
-            </ul>
-            <p>Se pune sursa de caldura in cratita si <span class="lamisto">da drumul la apa</span></p>
-        </section>
-        </div>    
-    <div style="width: 24%; margin-left: auto; display: inline-block; min-height: 1000px;">
-        <section>
-            <h3>Rata la cuptor reteta de friptura</h3>
-            <img src="https://pofta-buna.com/wp-content/uploads/2019/10/Rata-la-cuptor-reteta-de-friptura-gina-bradea-4-700x525.jpg" alt="o imagine cu rata la cuptor">
-            <ul>
-                <li>o rata intreaga (de 4 kg)
-                <li>2 lingurite de sare
-                <li>1 lingurita cu varf de cimbru</li>
-                <li>1 lingurita de piper</li>
-                <li>1 lingurita de boia dulce</li>
-                <li>1 capatana generoasa de usturoi</li>
-            </ul>
-            <p>Adaugam sarea, cimbrul, piperul, boiaua de ardei dulce. Amestecam totul foarte bine, apoi presaram condimentele pe carne. Amestecam carnea foarte bine cu condimentele si adaugam si usturoiul in tava. Punem tava la cuptor la o temperatura de 220 de grade Celsius, foc sus-jos la cuptoarele electrice. Acoperim tava cu folie de aluminiu sau cu un capac si verificam dupa 1 ora si jumatate.</p>
-        </section>
+            <div class="collapse navbar-collapse" id="navbar_SUS">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Acasa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Anunturi</a>
+                    </li>
+            </div>
+        </nav>
+    </header>
+    <!--Sfarsit Header-->
+    <!--Intro-->
+    <section style="background-color: antiquewhite;" class="jumbotron text-center">
+        <div class="container">
+            <h1 style="font-weight: 440;">Autovit.ro</h1>
+            <p>Bine ati venit pe principalul site de vanzari autovehicule second-hand!</p>
         </div>
-    <div style="width: 24%; margin-left: auto; display: inline-block; min-height: 1000px">
-        <section>    
-        <h3>Supa de pui vietnameza</h3>
-            <img src="https://www.e-retete.ro/files/recipes/xsupa-de-pui-vietnameza.jpg.pagespeed.ic.ee65c0Q790.webp" alt="o imagine cu Supa">
-            <ol>
-                <li>1 pui (cca 2.5 kg; preferabil pui de casa)</li>
-                <li>2 cepe medii</li>
-                <li>3 morcovi</li>
-                <li>sare</li>
-            </ol>
-            <p><span class="despre">Pho Ga este o supa de pui aromata si racoritoare. Se prepara in mod asemanator cu supa de pui de la noi, doar ca pe langa zarzavaturi se adauga multe arome specifice bucatariei vietnameze: ghimbir, cuisoare, coriandru, sos de peste ... Iar la servire mai pluseaza cu menta, busuioc, ceapa verde si ardei iute.</span></p>
-            </section>
-    </div>
+    </section>
+    <!--Sfarsit intro-->
+    <!--Inceput zona imagini-->
+    <div class="album py-5 bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card box-shadow">
+                            <img src="https://frankfurt.apollo.olxcdn.com/v1/files/z9bl3z2ox62k3-RO/image;s=1000x700" class="img-thumbnail">
+                                <div class="card-body">
+                                    <h5 class="card-text" style="font-weight: 400;">Opel Corsa D 2011</h5>
+                                    <div class="justify-content-between align-items-center">
+                                        <ul>
+                                            <li>Motor 1.2 i 90 Cp</li>
+                                            <li>Climatronic functional</li>
+                                            <li>Volan piele in 3 spite sport</li>
+                                            <li>Radio Cd-player original cu Mp3</li>
+                                            <li>Jante R15 cu anvelope Michelin</li>
+                                            <li>Servo city, se conduce foarte usor</li>
+                                            <li>8 Airbag-uri</li>
+                                            <li>Parbriz incalzit</li>
+                                        </ul>
+                                        <a class="btn btn-primary" href="https://www.olx.ro/d/oferta/opel-corsa-d-1-2-benzina-gpl-import-germania-pe-roti-nr-zoll-valabile-IDhDLt7.html" target="_blank" role="button">Vezi mai multe detalii despre autoturism</a>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card box-shadow">
+                            <img src="https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjV4YzZqMzJiYTFkMi1BVVRPVklUUk8ifQ.9TlbXTxw38XDsbd3TWhL5_chI5ereB2aCCetFGig-aI/image;s=1000x700" class="img-thumbnail">
+                                <div class="card-body">
+                                    <h5 class="card-text" style="font-weight: 400;">Volkswagen Passat CC 2.0 TDI DSG </h5>
+                                    <div class="justify-content-between align-items-center">
+                                        <ul>
+                                            <li>Motorizare 2.0 TDI 140 CP</li>
+                                            <li>Cutie Automată DSG</li>
+                                            <li>An fabricație 2013</li>
+                                            <li>Norma poluare Euro 5</li>
+                                            <li>Import recent Germania</li>
+                                            <li>190.000 Km - CARTE SERVICE</li>
+                                            <li>Numere provizorii valabile 3 luni</li>
+                                            <li>Jante aliaj originale VW R17</li>
+                                            <li>Vopsea originala</li>
+                                        </ul>
+                                        <a class="btn btn-primary" href="https://www.autovit.ro/autoturisme/anunt/volkswagen-passat-cc-2-0-tdi-dsg-blue-tdi-ID7HgoTA.html" target="_blank" role="button">Vezi mai multe detalii despre autoturism</a>
+
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card box-shadow">
+                            <img src="https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjFqaTNrbG5zZ2lrOTItQVVUT1ZJVFJPIiwidyI6W3siZm4iOiJxN216NTNiaWZwemstQVVUT1ZJVFJPIiwicyI6IjE2IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.bIvA3EYofngFLD5RK2iWhhx5A41KG-yQ7Fe88MZ6BTc/image;s=0x450;f=jpeg" class="img-thumbnail">
+                                <div class="card-body">
+                                    <h5 class="card-text" style="font-weight: 400;"><s>Volkswagen Touran 2.0 TDI DSG</s></h5>
+                                    <div class="justify-content-between align-items-center">
+                                        <ul>
+                                            <li>Motorizare 2.0 TDI 140 CP</li>
+                                            <li>Cutie Automată DSG</li>
+                                            <li>An fabricație 2013</li>
+                                            <li>Norma poluare Euro 5</li>
+                                            <li>Import recent Germania</li>
+                                            <li>190.000 Km - CARTE SERVICE</li>
+                                            <li>Numere provizorii valabile 3 luni</li>
+                                            <li>Jante aliaj originale VW R17</li>
+                                        </ul>
+                                        <a class="btn btn-secondary disabled" mx-auto; role="button" aria-disabled="true">Vanduta</a>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card box-shadow">
+                            <img src="https://frankfurt.apollo.olxcdn.com/v1/files/gr3iyzfn9m0s2-RO/image;s=1000x700" class="img-thumbnail">
+                                <div class="card-body">
+                                    <h5 class="card-text" style="font-weight: 400;"><s>VW Golf 6 Plus Style 2012</s></h5>
+                                    <div class="justify-content-between align-items-center">
+                                        <ul>
+                                            <li>Motor 1.6Tdi 105cp</li>
+                                            <li>Import recent Germania</li>
+                                            <li>Nr rosii valabile</li>
+                                            <li>Navigatie RNS 315</li>
+                                            <li>Oglinzi electrice + incalzite</li>
+                                            <li>Start&Stop</li>
+                                            <li>Clima pe 2 zone</li>
+                                            <li>Scaune incalzite</li>
+                                        </ul>
+                                        <a class="btn btn-secondary disabled" mx-auto; role="button" aria-disabled="true">Vanduta</a>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card box-shadow">
+                            <img src="https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjFqaTNrbG5zZ2lrOTItQVVUT1ZJVFJPIiwidyI6W3siZm4iOiJxN216NTNiaWZwemstQVVUT1ZJVFJPIiwicyI6IjE2IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.bIvA3EYofngFLD5RK2iWhhx5A41KG-yQ7Fe88MZ6BTc/image;s=0x450;f=jpeg" class="img-thumbnail">
+                                <div class="card-body">
+                                    <h5 class="card-text" style="font-weight: 400;"><s>Volkswagen Passat CC 2.0 TDI DSG</s></h5>
+                                    <div class="justify-content-between align-items-center">
+                                        <ul>
+                                            <li>Motorizare 2.0 TDI 140 CP</li>
+                                            <li>Cutie Automată DSG</li>
+                                            <li>An fabricație 2013</li>
+                                            <li>Norma poluare Euro 5</li>
+                                            <li>Import recent Germania</li>
+                                            <li>190.000 Km - CARTE SERVICE</li>
+                                            <li>Numere provizorii valabile 3 luni</li>
+                                            <li>Jante aliaj originale VW R17</li>
+                                        </ul>
+                                        <a class="btn btn-secondary disabled" mx-auto; role="button" aria-disabled="true">Vanduta</a>
+                                    </div>
+                                    
+                                </div>
+                        </div>
 </div>
-    <div id=bye style="text-align: center;">
-    <h2>Va multumim pentru vizita, pofta buna!</h2>
+                    <div class="col-md-4">
+                        <div class="card box-shadow">
+                            <img src="https://frankfurt.apollo.olxcdn.com/v1/files/zonwa2c97z143-RO/image;s=1000x700" class="img-thumbnail">
+                                <div class="card-body">
+                                    <h5 class="card-text" style="font-weight: 400;"><s>A6 3.0tdi quattro</s></h5>
+                                    <div class="justify-content-between align-items-center">
+                                        <ul>
+                                            <li>Motorizare 3.0 TDI 204 CP</li>
+                                            <li>Cutie Automată DSG</li>
+                                            <li>An fabricație 2013</li>
+                                            <li>Norma poluare Euro 5</li>
+                                            <li>Import recent Germania</li>
+                                            <li>60.000 Km - CARTE SERVICE</li>
+                                            <li>Numere provizorii valabile 3 luni</li>
+                                            <li>Jante aliaj originale VW R17</li>
+                                        </ul>
+                                        <a class="btn btn-secondary disabled" mx-auto; role="button" aria-disabled="true">Vanduta</a>
+                                    </div>
+                                </div>
+                        </div>
+                </div>
+            </div>     
+                        
     </div>
-    <footer>
-        Realizat de maestrul bucătar Cojocaru Valentin
-    </footer>
+    <!--Sfarsit zona imagini-->
+    <br>
+    <br>
+<br>
+<br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col justify-content-center align-items-center bg-white">
+                <div class="text-black">
+                    <h3 style="text-align: center;">Exemple de calcul a ratelor</h3>
+                    <table class="table table-bordered table-hover";>
+                        <thead class="thead-dark">
+                            <tr>
+                                <th scope="col">Costul masinii</th>
+                                <th scope="col">Numar rate</th>
+                                <th scope="col">Valoare rata lunara</th>
+                                <th scope="col">Avans</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>10.000 $</td>
+                                <td>60</td>
+                                <td>300 $</td>
+                                <td>25%</td>
+                            </tr>
+                            <tr>
+                                <td>5000 $</td>
+                                <td>12</td>
+                                <td>450 $</td>
+                                <td>5%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div class="alert alert-primary" role="alert" style="text-align: center; width: 50%; margin-left: 25%;">
+        Marturii clienti:
+    </div>    
+    <br>
+    <br>
+
+    <div class="container" style="border-style: double;">
+        <div class="row">
+            <div class="col-lg p-2">
+                <img class="img-thumbnail" title="Am achizitionat acest autoturism prin Autovit.ro. Personalul a fost foarte amabil, iar masina merita fiecare banut. Recomand tuturor sa ia legatura cu reprezentantii Autovit.ro pentru a-si comanda masina dorita!" src="https://www.follyauto.ro/wp-content/uploads/photo-gallery/thumb/WhatsApp_Image_2020-07-13_at_18.35.51_(2)_(1)_(1).jpeg?bwg=1595324121">
+            </div>
+            <div class="col-lg p-2">
+                <H4 class="text-center mt-5">Marin Preda - Hyundai Tucson 2010</H4>
+                <p style="font-style: italic;">"Am achizitionat acest autoturism prin <u>Autovit.ro</u>. Personalul a fost foarte amabil, iar masina merita fiecare banut. Recomand tuturor sa ia legatura cu reprezentantii Autovit.ro pentru a-si comanda masina dorita!"</p>
+            </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-lg p-2">
+                 <img class="img-thumbnail" src="https://www.follyauto.ro/wp-content/uploads/photo-gallery/WhatsApp_Image_2020-07-13_at_18.35.52_(1)_(1)_(1)_(1)_(1)_(1).jpeg?bwg=1595324121">
+             </div>
+             <div class="col-lg p-2">
+                 <h4 class="text-center mt-5">Bogdan Mihai - VW Passat B7</h4>
+                 <p style="font-style: italic;">"Am achizitionat acest autoturism prin <u>Autovit.ro</u>. Personalul a fost foarte amabil, iar masina merita fiecare banut. Recomand tuturor sa ia legatura cu reprezentantii Autovit.ro pentru a-si comanda masina dorita!"</p>
+                </div>
+                <div class="col-lg p-2">
+                    <img class="img-thumbnail" src="https://www.follyauto.ro/wp-content/uploads/photo-gallery/WhatsApp_Image_2020-07-13_at_18.35.53_(1)_(1)_(1)_(1)_(1).jpeg?bwg=1595324121">
+                </div>
+                <div class="col-lg p-2">
+                    <h4 class="text-center mt-5">Rares Andrei - VW Touran 2012</h4>
+                    <p style="font-style: italic;">"Am achizitionat acest autoturism prin <u>Autovit.ro</u>. Personalul a fost foarte amabil, iar masina merita fiecare banut. Recomand tuturor sa ia legatura cu reprezentantii Autovit.ro pentru a-si comanda masina dorita!"</p>
+                   </div>
+   
+</div>
+</div>
+</div>
+<br>
+<br>
+
+<section style="background-color: antiquewhite;" class="jumbotron text-center">
+    <div class="container">
+        <p>Daca aveti intrebari sau doriti sa luati legatura cu un reprezentant, puteti folosi butonul de mai jos pentru a ne trimite un mesaj:</p>
+        <a class="btn btn-warning" href="mailto:email@test.ro" role="button">Contacteaza-ne</a>
+    </div>
+</section>
+       <footer class="page-footer font-small bg-dark">
+            <div class="text-center py-5 footer-copyright">
+                <a href="https://autovit.ro" class="text-white">Toate drepturile rezervate Autovit.ro 2023<br>Autovit.ro nu isi asuma raspunderea pentru informatiile eronate din anunturi!</a>
+            </div>
+       </footer>
 </body>
+
 </html>
